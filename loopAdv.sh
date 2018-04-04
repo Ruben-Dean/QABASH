@@ -1,9 +1,9 @@
 #!/bin/bash
 x=1
 
-while [$x -le 30]
+while [ $x -le 30 ]
 do
-	if[[ 0 -eq "($x%3) + ($x%5)" ]]
+	if [[ 0 -eq "($x%3) + ($x%5)" ]]
 	then
 
 	echo "fizz buzz"
