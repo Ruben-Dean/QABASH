@@ -8,6 +8,6 @@ echo "Start the loop"
 
 for (( i=0;i<=value;i++ ))
 do
-	
+
 	echo "$i"
 done

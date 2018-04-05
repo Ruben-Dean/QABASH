@@ -1,11 +1,10 @@
 #!/bin/bash
 
-for x in {1..10}
+for i in 10
 do
- for y in {1..10}
+for j in 10
 do
- echo -n "$(( $x * $y))"
+echo $[{1..10}*{1..10}] | xargs -n10 | column -t
 done 
-echo
 done
 
